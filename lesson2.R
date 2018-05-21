@@ -137,7 +137,6 @@ corr <- function (directory, threshold = 0) {
         
 }
 
-
 make.NegLogLik <- function (data, fixed = c(FALSE, FALSE)) {
         params <- fixed
         function(p) {
